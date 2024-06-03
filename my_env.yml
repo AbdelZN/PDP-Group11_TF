@@ -1,0 +1,13 @@
+name: my_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - scikit-learn
+  - joblib
+  - pip
+  - pip:
+      - azureml-core==1.38.0
+      - azureml-sdk==1.38.0
+      - azureml-defaults>=1.0.45
