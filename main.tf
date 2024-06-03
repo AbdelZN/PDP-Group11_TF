@@ -18,7 +18,7 @@ resource "azurerm_key_vault" "kv" {
   name                = "uniqueKeyVaultName2nd" # Ensure this name is globally unique
   location            = azurerm_resource_group.ml_rg.location
   resource_group_name = azurerm_resource_group.ml_rg.name
-  tenant_id           = "ad78d191-1044-4303-8212-b6f4dd7874bc"
+  tenant_id           = "replace_with_own_tenant_id"
 
   sku_name = "standard"
 }
